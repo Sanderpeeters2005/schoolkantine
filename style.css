@@ -1,4 +1,34 @@
 body {
     text-align: center;
-    background-color: rgb(115, 13, 140);
+}
+
+/* Volledige scherm achtergrond voor het laadscherm */
+#loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #10192D; /* Donkerblauw */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 9999; /* Zorg dat het boven alles staat */
+    opacity: 1; /* Start volledig zichtbaar */
+    transition: opacity 1s ease; /* Vloeiende overgang bij verbergen */
+}
+
+/* Verborgen toestand van het laadscherm */
+#loading-screen.hidden {
+    opacity: 0; /* Onzichtbaar maken */
+    pointer-events: none; /* Geblokkeerde interacties */
+}
+
+/* GIF-styling */
+.loading-gif {
+    width: 150px; /* Pas grootte aan */
+    height: 150px;
+    margin-bottom: 20px;
 }
