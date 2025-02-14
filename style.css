@@ -2,7 +2,6 @@ body {
     text-align: center;
 }
 
-/* Volledige scherm achtergrond voor het laadscherm */
 #loading-screen {
     position: fixed;
     top: 0;
