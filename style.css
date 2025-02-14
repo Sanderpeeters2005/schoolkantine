@@ -58,6 +58,7 @@
     
   }
 
+<<<<<<< HEAD
   .group {
     display: flex;
     line-height: 28px;
@@ -113,3 +114,71 @@
     bottom: 0;
     right: 0;
   }
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #62059c; 
+    color: #f0f8ff;
+    margin-top: 30px;
+    border-radius: 12px;
+    font-size: 0.9rem;
+}
+>>>>>>> 91d0b7506cbdf53dc1280c1f0bb86d20cebc16d7
