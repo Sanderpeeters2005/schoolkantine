@@ -1,7 +1,7 @@
 const ipConfig = "localhost";
 const startUrl = `http://${ipConfig}:8080/`;
 
-// Add fade-in animation to all products on scroll
+
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
@@ -16,13 +16,13 @@ document.querySelectorAll('.product').forEach((product) => {
 
 async function fetchProducts(query) {
     try {
-        const response = await fetch(`${startUrl}command?Command=findProducts&ID=nil&Text=${query}`); // Pass query to the API
+        const response = await fetch(`${startUrl}command?Command=findProducts&ID=nil&Text=${query}`); 
         if (response.ok) {
             const products = await response.json();
             return products;
         } else {
             console.error("Failed to fetch products: ", response.statusText); 
-            return []; // Return an empty array in case of error
+            return []; 
         }
     } catch (error) {
         console.error("Error fetching products: ", error);
@@ -32,15 +32,15 @@ async function fetchProducts(query) {
 
 async function fetchImage(FotoID) {
     try {
-        const response = await fetch(`${startUrl}command?Command=getImage&ID=${FotoID}&Text=nil`); // Pass query to the API
+        const response = await fetch(`${startUrl}command?Command=getImage&ID=${FotoID}&Text=nil`); 
         if (response.ok) {
-            const blob = await response.blob(); // Convert response to a Blob
-            const imageUrl = URL.createObjectURL(blob); // Create a URL for the Blob
+            const blob = await response.blob(); 
+            const imageUrl = URL.createObjectURL(blob); 
             console.log("Image URL: ", imageUrl);
-            return imageUrl; // Return the image URL
+            return imageUrl; 
         } else {
             console.error("Failed to fetch image: ", response.statusText); 
-            return null; // Return null in case of error
+            return null; 
         }
     } catch (error) {
         console.error("Error fetching image: ", error);
@@ -62,38 +62,38 @@ document.addEventListener('DOMContentLoaded', () => {
     const productInput = document.getElementById('productInput');
     const productList = document.getElementById('productList');
 
-    // Listen for input in the search field
+    
     productInput.addEventListener('input', async () => {
         const query = productInput.value.toLowerCase().trim();
-        productList.innerHTML = ''; // Clear the previous list
+        productList.innerHTML = ''; 
 
         if (query === '') {
-            productList.classList.remove('visible'); // Hide the product list if no query
+            productList.classList.remove('visible'); 
             return;
         }
 
-        // Fetch products with the query
+        
         const products = await fetchProducts(query);
 
         if (products.length === 0) {
             console.error("No products found.");
 
-            // Check if the "no results" message already exists
+            
             if (!document.querySelector('.no-results')) {
                 const noResult = document.createElement('li');
                 noResult.textContent = 'Geen resultaten gevonden';
-                noResult.classList.add('no-results'); // Add a unique class
+                noResult.classList.add('no-results'); 
                 productList.appendChild(noResult);
             }
         } else {
-            // Loop through the products and create the list items
+            
             products.forEach(product => {
                 const li = document.createElement('li');
                 li.classList.add('product-item');
 
-                // Fetch the image dynamically
+                
                 const img = document.createElement('img');
-                img.src = `${startUrl}command?Command=getImage&ID=${product.FotoID}&Text=nil`; // Update with actual FotoID
+                img.src = `${startUrl}command?Command=getImage&ID=${product.FotoID}&Text=nil`; 
                 img.alt = product.Naam;
                 img.classList.add('product-image');
 
@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
 
-        productList.classList.add('visible'); // Show the product list
+        productList.classList.add('visible'); 
     });
 });
 
@@ -120,8 +120,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const body = document.body;
 
     if (/mobile|android|iphone|ipad|tablet/.test(userAgent)) {
-        body.classList.add("mobile-user"); // Voeg een klasse toe voor mobiele gebruikers
+        body.classList.add("mobile-user"); 
     } else {
-        body.classList.add("desktop-user"); // Voeg een klasse toe voor desktop-gebruikers
+        body.classList.add("desktop-user"); 
     }
 });

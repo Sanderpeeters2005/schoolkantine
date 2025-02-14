@@ -2,33 +2,33 @@ body {
     text-align: center;
 }
 
-/* Volledige scherm achtergrond voor het laadscherm */
+
 #loading-screen {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #10192D; /* Donkerblauw */
+    background-color: #10192D; 
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    z-index: 9999; /* Zorg dat het boven alles staat */
-    opacity: 1; /* Start volledig zichtbaar */
-    transition: opacity 1s ease; /* Vloeiende overgang bij verbergen */
+    z-index: 9999; 
+    opacity: 1; 
+    transition: opacity 1s ease; 
 }
 
-/* Verborgen toestand van het laadscherm */
+
 #loading-screen.hidden {
-    opacity: 0; /* Onzichtbaar maken */
-    pointer-events: none; /* Geblokkeerde interacties */
+    opacity: 0; 
+    pointer-events: none; 
 }
 
-/* GIF-styling */
+
 .loading-gif {
-    width: 150px; /* Pas grootte aan */
+    width: 150px; 
     height: 150px;
     margin-bottom: 20px;
 }
