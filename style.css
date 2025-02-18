@@ -50,11 +50,14 @@
 }
 
   .group {
-    display: flex;
+   /* display: flex;*/
     line-height: 28px;
     align-items: center;
-    position: relative;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
     max-width: 190px;
+    max-height: 80px;
   }
   
   .input {
@@ -90,17 +93,18 @@
   }
   
   .search-icon {
-    position: absolute;
-    left: 1rem;
+    position: fixed;
     fill: #bdbecb;
     width: 1rem;
     height: 1rem;
     pointer-events: none;
     z-index: 1;
+    bottom: 100px;
+    right: 200px;
   }
 
   #seachbutton{
-    position: absolute;
+    position: fixed;
     bottom: 90px;
     right: 0;
   }
@@ -116,7 +120,7 @@
     margin-top: 30px;
     border-radius: 12px;
     font-size: 0.9rem;
-    position:absolute
+    position:fixed
 }
 
 .card {
