@@ -190,17 +190,6 @@
 }
 
 .maintitle{
- color:red;
- width: 100%;
- justify-content: center;
- border: #2b2c37;
-
-
-
-
-
-
-
-
- 
+ justify-content: center; 
+ display: flex;
 }
