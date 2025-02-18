@@ -190,6 +190,37 @@
 }
 
 .maintitle{
+
  justify-content: center; 
  display: flex;
+
+ color:red;
+ width: 100%;
+ justify-content: center;
+ border: #2b2c37;
+
+
+
+
+
+
+
+
+ 
+}
+
+#Over-ons{
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: yellow;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Over-ons1{
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 10px;
+
 }
