@@ -209,7 +209,7 @@
  
 }
 
-#Over-ons{
+#Over-ons, #Producten{
   max-width: 1000px;
   margin: 20px auto;
   padding: 20px;
@@ -223,4 +223,10 @@
   color: black;
   margin-top: 10px;
 
+}
+
+.Producten-1{
+  text-align: center;
+  color: black;
+  margin: 10px;
 }
