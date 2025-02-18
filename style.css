@@ -106,9 +106,9 @@
   }
 
   .footer {
-    width: 100%;
+    left: -90px ;
+    width: 105%;
     bottom: 0%;
-
     text-align: center;
     padding: 20px 0;
     background-color: #62059c; 
@@ -116,7 +116,7 @@
     margin-top: 30px;
     border-radius: 12px;
     font-size: 0.9rem;
-    position:fixed
+    position:absolute
 }
 
 .card {
@@ -209,7 +209,7 @@
  
 }
 
-#Over-ons{
+#Over-ons, #Producten{
   max-width: 1000px;
   margin: 20px auto;
   padding: 20px;
@@ -223,4 +223,10 @@
   color: black;
   margin-top: 10px;
 
+}
+
+.Producten-1{
+  text-align: center;
+  color: black;
+  margin: 10px;
 }
