@@ -215,7 +215,7 @@
  
 }
 
-#Over-ons, #Producten{
+#Over-ons, #Producten, #Gelegen{
   max-width: 1000px;
   margin: 20px auto;
   padding: 20px;
@@ -232,6 +232,12 @@
 }
 
 .Producten-1{
+  text-align: center;
+  color: black;
+  margin: 10px;
+}
+
+.Gelegen-1{
   text-align: center;
   color: black;
   margin: 10px;
