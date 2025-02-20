@@ -286,7 +286,7 @@ header {
   width: 30%;
 }
 .week-special h2 {
-  color: #efd90a;
+  color: #0c0c0c;
 }
 .style>
 
@@ -319,6 +319,21 @@ header {
  
  
 
+ .banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  max-height: 150px; 
+}
+
+.banner-image {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+  object-fit: contain; 
+}
 
 
 
@@ -377,6 +392,14 @@ header {
 
 
 
+
+
+
+
+
+<<<<<<< HEAD
  .main{
 
  }
+=======
+>>>>>>> 59349bffe91d5a61378976998598951ea0ad1764
