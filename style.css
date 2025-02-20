@@ -123,6 +123,21 @@
     position:fixed
 }
 
+.card-container {
+  display: flex;
+  justify-content: flex-end; 
+}
+
+
+
+.card-container{
+  justify-content: flex-end;
+
+}
+
+
+
+
 .card {
   --bg-card: #27272a;
   --primary: #6d28d9;
@@ -138,7 +153,10 @@
   width: 14rem;
   background-color: var(--bg-card);
   border-radius: 1rem;
+  margin-left: 50px; 
+  justify-content: flex-end;
 }
+
 
 .image_container img {
   width: 100%;
@@ -205,14 +223,6 @@
  justify-content: center;
  border: #2b2c37;
 
-
-
-
-
-
-
-
- 
 }
 
 #Over-ons, #Producten, #Gelegen{
@@ -242,3 +252,38 @@
   color: black;
   margin: 10px;
 }
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+header {
+  background-color: #efd90a;
+  padding: 20px;
+  color: white;
+  font-size: 24px;
+}
+.specials {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.week-special {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 30%;
+}
+.week-special h2 {
+  color: #efd90a;
+}
+</style>
