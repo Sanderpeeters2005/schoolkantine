@@ -223,6 +223,7 @@
  justify-content: center;
  border: #2b2c37;
 
+
 }
 
 #Over-ons, #Producten, #Gelegen{
@@ -252,6 +253,7 @@
   color: black;
   margin: 10px;
 }
+
 
 
 body {
@@ -286,4 +288,33 @@ header {
 .week-special h2 {
   color: #efd90a;
 }
-</style>
+.style>
+
+.card {
+  width: 190px;
+  height: 254px;
+  border-radius: 30px;
+  background: #212121;
+  box-shadow: 15px 15px 30px rgb(25, 25, 25),
+              -15px -15px 30px rgb(60, 60, 60);
+ }
+ 
+ #Card-1{
+  width: 190px;
+  height: 254px;
+  border-radius: 30px;
+  background: #212121;
+  box-shadow: 15px 15px 30px rgb(25, 25, 25),
+              -15px -15px 30px rgb(60, 60, 60);
+ }
+
+ .image_container{
+  width:75%;
+  height: 75%;
+  display: flex;
+  object-fit: cover;
+  justify-content: center;
+  border-radius: 0.5rem;
+ }
+ 
+ 
