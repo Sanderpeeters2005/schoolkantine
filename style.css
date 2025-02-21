@@ -350,7 +350,7 @@ main{
   grid-template-columns: repeat(3, 1fr);
   margin: 5cm;
   margin-top: 1cm;
-  
+  gap: 1cm;
 }
 
 #toggleMode {
