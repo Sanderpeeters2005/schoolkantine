@@ -387,13 +387,14 @@ body {
 
 
 .column {
-  float: left;
-  width: 25%;
-  padding: 0 10px;
+  float: right;
 }
 
 
-.row {margin: 0 -5px;}
+.row {
+  margin: 0 0 0 10px;
+  float: left;
+}
 
 
 .row:after {
@@ -405,12 +406,19 @@ body {
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
-  padding: 60px;
+  padding: 30px;
   text-align: center;
-  background-color: #62069c;
+  background-color: #62059c;
   color: white;
-}   
+  margin: 0 auto;
+  border-radius: 0.5rem;
+}
 
+.imagecard {
+  margin: 0 auto;
+  text-align: center;
+  
+}
 
 @media screen and (max-width: 600px) {
   .column {
@@ -420,8 +428,3 @@ body {
   }
 }
 
-.row{
-  width: 10px;
-  display: flex;
-  justify-content: c;
-}
