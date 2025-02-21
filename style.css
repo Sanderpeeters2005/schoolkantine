@@ -345,6 +345,13 @@ header {
   height: auto; /* Behoudt de verhoudingen */
 }
 
+main{
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr);
+ 
+
+}
+
 
 
   
