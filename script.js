@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (loadingScreen) {
         setTimeout(() => {
             loadingScreen.classList.add("hidden");
-        }, 3000);
+        }, 300);
     } else {
         console.error('Loading screen element not found.');
     }

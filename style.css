@@ -338,16 +338,40 @@ header {
 
 
 .broodjes {
-  display: block; /* Zorgt ervoor dat de afbeelding zich normaal gedraagt */
-  margin: 10px auto; /* Centreert de afbeelding */
-  max-width: 500px; /* Beperkt de breedte van de afbeelding */
-  width: 100%; /* Zorgt ervoor dat de afbeelding schaalt binnen de container */
-  height: auto; /* Behoudt de verhoudingen */
+  display: block; 
+  margin: 10px auto; 
+  max-width: 500px; 
+  width: 100%; 
+  height: auto; 
 }
 
 
 
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
