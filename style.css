@@ -345,7 +345,7 @@ header {
   height: auto; 
 }
 
-.main{
+main{
   display: grid; 
   grid-template-columns: repeat(3, 1fr);
   margin: 5cm;
