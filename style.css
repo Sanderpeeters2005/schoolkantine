@@ -345,62 +345,34 @@ header {
   height: auto; 
 }
 
-main{
+.main{
   display: grid; 
   grid-template-columns: repeat(3, 1fr);
- 
-
+  margin: 5cm;
+  margin-top: 1cm;
+  
 }
 
+#toggleMode {
+  background: linear-gradient(135deg, #6a0dad, #8e44ad);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
 
+#toggleMode:hover {
+  background: linear-gradient(135deg, #8e44ad, #6a0dad);
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#toggleMode:active {
+  transform: scale(0.98);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
