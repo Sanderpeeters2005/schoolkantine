@@ -345,57 +345,13 @@ header {
   height: auto; 
 }
 
-
-
+.main{
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr);
+  margin: 5cm;
+  margin-top: 1cm;
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 #toggleMode {
   background: linear-gradient(135deg, #6a0dad, #8e44ad);
