@@ -185,10 +185,17 @@
 }
 
 .price {
-  font-size: 1.5rem;
+  font-size: 3rem;
   font-weight: 700;
   color: var(--light);
-}
+  text-align: right;
+  margin-right: 10 auto;
+  display: block;
+  width: fit-content;
+  align-items: center;
+  }
+
+
 
 .cart-button {
   cursor: pointer;
@@ -415,7 +422,9 @@ body {
   color: white;
   margin: 0 auto;
   border-radius: 0rem;
+  
 }
+
 
 .imagecard {
   margin: 0 auto;
@@ -431,3 +440,48 @@ body {
   }
 }
 
+.card1 {
+--bg-card: #27272a;
+--primary: #6d28d9;
+--primary-shadow: #2e1065;
+--light: #d9d9d9;
+--zinc800: #18181b;
+--bg-linear: linear-gradient(0deg, var(--primary) 50%, var(--light) 125%);
+position: relative;
+display: flex;
+flex-direction: column;
+gap: 0.75rem;
+padding: 1rem;
+width: 14rem;
+background-color: var(--bg-card);
+border-radius: 1rem;
+margin-left: px; 
+justify-content: flex-end;
+}
+
+
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.product {
+  display: inline-block;
+  width: 45%;
+}
+
+.cards-container {
+  display: flex;
+  gap: 1rem; /* Ruimte tussen de kaarten */
+  justify-content: center; /* Centreert de kaarten */
+}
+
+.card {
+  width: 14rem; /* Zorgt ervoor dat ze netjes naast elkaar passen */
+}
+
+.image_container img {
+  width: 300%; /* Zorgt ervoor dat de afbeelding binnen de kaart blijft */
+  height: auto;
+}
