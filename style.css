@@ -152,8 +152,7 @@
   padding: 1rem;
   width: 14rem;
   background-color: var(--bg-card);
-  border-radius: 1rem;
-  margin-left: px; 
+  border-radius: 1rem; 
   justify-content: flex-end;
 }
 
@@ -169,7 +168,7 @@
 
 .title {
   overflow: clip;
-  width: 100%;
+  width: 110%;
   font-size: 1rem;
   font-weight: 600;
   color: var(--light);
@@ -188,6 +187,7 @@
   font-size: 3rem;
   font-weight: 700;
   color: var(--light);
+<<<<<<< HEAD
   text-align: right;
   margin-right: 10 auto;
   display: block;
@@ -196,6 +196,10 @@
   }
 
 
+=======
+  margin-left: 0.8cm;
+}
+>>>>>>> 0e3b46205a13517055fc971d3859cb788325ddaa
 
 .cart-button {
   cursor: pointer;
@@ -422,7 +426,12 @@ body {
   color: white;
   margin: 0 auto;
   border-radius: 0rem;
+<<<<<<< HEAD
   
+=======
+  flex: auto;
+
+>>>>>>> 0e3b46205a13517055fc971d3859cb788325ddaa
 }
 
 
@@ -430,6 +439,7 @@ body {
   margin: 0 auto;
   text-align: center;
   
+    
 }
 
 @media screen and (max-width: 600px) {
