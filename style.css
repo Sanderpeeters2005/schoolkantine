@@ -123,21 +123,6 @@
     position:fixed
 }
 
-.card-container {
-  display: flex;
-  justify-content: flex-end; 
-}
-
-
-
-.card-container{
-  justify-content: flex-end;
-
-}
-
-
-
-
 .card {
   --bg-card: #27272a;
   --primary: #6d28d9;
@@ -156,7 +141,6 @@
   justify-content: flex-end;
 }
 
-
 .image_container img {
   width: 240%;
   height: 90%;
@@ -164,30 +148,10 @@
   border-radius: 0.5rem;
 }
 
-
-
-.title {
-  overflow: clip;
-  width: 110%;
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--light);
-  text-transform: capitalize;
-  text-wrap: nowrap;
-  text-overflow: ellipsis;
-}
-
-.action {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
 .price {
   font-size: 3rem;
   font-weight: 700;
   color: var(--light);
-
   text-align: right;
   margin-right: 10 auto;
   display: block;
@@ -195,39 +159,12 @@
   align-items: center;
   }
 
-.cart-button {
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.25rem;
-  padding: 0.5rem;
-  width: 100%;
-  background-image: var(--bg-linear);
-  font-size: 0.75rem;
-  font-weight: 500;
-  color: var(--light);
-  text-wrap: nowrap;
-  border: 2px solid hsla(262, 83%, 58%, 0.5);
-  border-radius: 0.5rem;
-  box-shadow: inset 0 0 0.25rem 1px var(--light);
-}
-
-.cart-button .cart-icon {
-  width: 1rem;
-}
-
 .maintitle{
-
  justify-content: center; 
  display: flex;
-
- color: black;
  width: 100%;
  justify-content: center;
  border: #2b2c37;
-
-
 }
 
 #Over-ons, #Producten, #Gelegen{
@@ -245,20 +182,6 @@
   margin-top: 10px;
 
 }
-
-.Producten-1{
-  text-align: center;
-  color: black;
-  margin: 10px;
-}
-
-.Gelegen-1{
-  text-align: center;
-  color: black;
-  margin: 10px;
-}
-
-
 
 body {
   font-family: Arial, sans-serif;
@@ -292,26 +215,7 @@ header {
 .week-special h2 {
   color: #0c0c0c;
 }
-.style>
-
-.card {
-  width: 190px;
-  height: 254px;
-  border-radius: 30px;
-  background: #212121;
-  box-shadow: 15px 15px 30px rgb(25, 25, 25),
-              -15px -15px 30px rgb(60, 60, 60);
- }
  
- #Card-1{
-  width: 190px;
-  height: 254px;
-  border-radius: 30px;
-  background: #212121;
-  box-shadow: 15px 15px 30px rgb(25, 25, 25),
-              -15px -15px 30px rgb(60, 60, 60);
- }
-
  .image_container{
   width:50%;
   height: 75%;
@@ -321,9 +225,6 @@ header {
   align-items: center;
   margin: -0.45cm;
  }
-
- 
- 
 
  .banner {
   display: flex;
@@ -340,8 +241,6 @@ header {
   width: auto;
   object-fit: contain; 
 }
-
-
 
 .broodjes {
   display: block; 
@@ -387,28 +286,16 @@ main{
   box-sizing: border-box;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-
-.column {
-  float: right;
-}
-
-
 .row {
   margin: 0 0 0 10px;
   float: left;
 }
-
 
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
@@ -420,19 +307,9 @@ body {
   color: white;
   margin: 0 auto;
   border-radius: 0rem;
-
-  
   flex: auto;
 
 
-}
-
-
-.imagecard {
-  margin: 0 auto;
-  text-align: center;
-  
-    
 }
 
 @media screen and (max-width: 600px) {
@@ -442,6 +319,7 @@ body {
     margin-bottom: 20px;
   }
 }
+
 
 .card1 {
 --bg-card: #27272a;
@@ -488,4 +366,5 @@ justify-content: flex-end;
   width: 30; /* Zorgt ervoor dat de afbeelding binnen de kaart blijft */
   height: auto;
 }
+
 
