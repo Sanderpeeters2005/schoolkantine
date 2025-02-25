@@ -187,19 +187,13 @@
   font-size: 3rem;
   font-weight: 700;
   color: var(--light);
-<<<<<<< HEAD
+
   text-align: right;
   margin-right: 10 auto;
   display: block;
   width: fit-content;
   align-items: center;
   }
-
-
-=======
-  margin-left: 0.8cm;
-}
->>>>>>> 0e3b46205a13517055fc971d3859cb788325ddaa
 
 .cart-button {
   cursor: pointer;
