@@ -153,7 +153,7 @@
   width: 14rem;
   background-color: var(--bg-card);
   border-radius: 1rem;
-  margin-left: 50px; 
+  margin-left: px; 
   justify-content: flex-end;
 }
 
@@ -407,12 +407,14 @@ body {
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
-  padding: 30px;
+  padding: 50px;
   text-align: center;
+  display: flex;
+  justify-content: flex-end;
   background-color: #62059c;
   color: white;
   margin: 0 auto;
-  border-radius: 0.5rem;
+  border-radius: 0rem;
 }
 
 .imagecard {
