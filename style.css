@@ -308,13 +308,15 @@ header {
  }
 
  .image_container{
-  width:75%;
+  width:50%;
   height: 75%;
-  display: flex;
   object-fit: cover;
   justify-content: center;
   border-radius: 0.5rem;
+  align-items: center;
+  margin: -0.45cm;
  }
+
  
  
 
