@@ -169,7 +169,7 @@
 
 .title {
   overflow: clip;
-  width: 100%;
+  width: 110%;
   font-size: 1rem;
   font-weight: 600;
   color: var(--light);
@@ -188,6 +188,7 @@
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--light);
+  margin-left: 0.8cm;
 }
 
 .cart-button {
