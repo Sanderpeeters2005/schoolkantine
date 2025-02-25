@@ -415,12 +415,15 @@ body {
   color: white;
   margin: 0 auto;
   border-radius: 0rem;
+  flex: auto;
+
 }
 
 .imagecard {
   margin: 0 auto;
   text-align: center;
   
+    
 }
 
 @media screen and (max-width: 600px) {
