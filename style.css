@@ -174,6 +174,7 @@
   background-color: yellow;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color:#010002
 }
 
 .Over-ons1{
@@ -322,7 +323,7 @@ main{
 
 
 .card1 {
---bg-card: #27272a;
+--bg-card: #62059c;
 --primary: #6d28d9;
 --primary-shadow: #2e1065;
 --light: #d9d9d9;
@@ -336,35 +337,7 @@ padding: 2rem;
 width: 14rem;
 background-color: var(--bg-card);
 border-radius: 1rem;
-margin-left: px; 
+margin-left: 100px; 
 justify-content: flex-end;
+color: #010002;
 }
-
-
-.product-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-}
-
-.product {
-  display: inline-block;
-  width: 45%;
-}
-
-.cards-container {
-  display: flex;
-  gap: 1rem; /* Ruimte tussen de kaarten */
-  justify-content: center; /* Centreert de kaarten */
-}
-
-.card {
-  width: 14rem; /* Zorgt ervoor dat ze netjes naast elkaar passen */
-}
-
-.image_container img {
-  width: 30; /* Zorgt ervoor dat de afbeelding binnen de kaart blijft */
-  height: auto;
-}
-
-
