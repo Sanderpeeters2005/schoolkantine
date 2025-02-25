@@ -152,8 +152,7 @@
   padding: 1rem;
   width: 14rem;
   background-color: var(--bg-card);
-  border-radius: 1rem;
-  margin-left: px; 
+  border-radius: 1rem; 
   justify-content: flex-end;
 }
 
