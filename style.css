@@ -152,8 +152,7 @@
   padding: 1rem;
   width: 14rem;
   background-color: var(--bg-card);
-  border-radius: 1rem;
-  margin-left: px; 
+  border-radius: 1rem; 
   justify-content: flex-end;
 }
 
@@ -169,7 +168,7 @@
 
 .title {
   overflow: clip;
-  width: 100%;
+  width: 110%;
   font-size: 1rem;
   font-weight: 600;
   color: var(--light);
@@ -188,6 +187,7 @@
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--light);
+  margin-left: 0.8cm;
 }
 
 .cart-button {
@@ -415,12 +415,15 @@ body {
   color: white;
   margin: 0 auto;
   border-radius: 0rem;
+  flex: auto;
+
 }
 
 .imagecard {
   margin: 0 auto;
   text-align: center;
   
+    
 }
 
 @media screen and (max-width: 600px) {
